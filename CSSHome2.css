@@ -1,0 +1,96 @@
+html {
+	background-image: url(seigaiha.png);
+	background-repeat: repeat;
+}
+
+body {
+	background-image: url(BA_dark_logo_hor.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size:200px;
+	background-attachment: fixed;
+}
+h1 {
+	color: #333;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+.head {
+	color: #ccc;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+.underhead {
+	font-size: 16px;
+	color: #888;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.menu {
+	list-style:none;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	}
+.menu_act:hover {
+	background: #eee;
+	list-style-image: url(short_arrow_right-512.png);
+	
+}
+.menu_act:active {
+	text-decoration: overline;
+}
+.menu_list {
+	text-decoration: none;
+	font-variant: small-caps;
+}
+.menu_list:hover {
+	color: #333;
+}
+
+.menu_list:visited {
+	color: #a9a;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 35px;
+	text-align: justify;
+}
+.content {
+	text-indent: 40px;
+	font-size: 18px;
+	color:#222;
+	font-weight: bold;
+	text-align: justify;
+	font-family: Verdana, Tahoma, sans-serif
+}
+
+.content2:first-letter {
+	font-size: 36px;	
+	color: #ea3;
+}
+.content2:first-line {
+	font-size: 27px;
+	color: #a83;
+}
+.table {
+	font-size: 18px;
+	font-family: Verdana;
+	text-align: left;
+	
+}
+.table2 {
+	color: white;
+	background: #666;
+}
+.tab:hover {
+background: #ccc;
+}
+.table3 {
+	background: #a83;
+	color: white;
+}
